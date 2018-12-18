@@ -2,24 +2,31 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:layout_centerInParent="true"
-    android:background="#922B21">
+    tools:contex=". MainActivity"
+    android:layout_centerInParent="true">
 
-    <RelativeLayout
+    <!--<RelativeLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent">-->
+
+        <!--<TextView-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Spicy Noodle"-->
+            <!--android:layout_below="@id/profile"-->
+            <!--android:gravity="center"-->
+            <!--android:layout_marginTop="10dp"-->
+            <!--android:textSize="18dp"-->
+            <!--android:textColor="#F8F9F9"/>-->
+    <!--</RelativeLayout>-->
+    <android.support.v7.widget.RecyclerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        android:id="@+id/recyclerview">
 
-        <TextView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Spicy Noodle"
-            android:layout_below="@id/profile"
-            android:gravity="center"
-            android:layout_marginTop="10dp"
-            android:textSize="18dp"
-            android:textColor="#F8F9F9"/>
-    </RelativeLayout>
+    </android.support.v7.widget.RecyclerView>
 
 
 </LinearLayout>
