@@ -10,9 +10,9 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent">
         <ImageView
-            android:layout_width="100dp"
+            android:layout_width="300dp"
             android:layout_height="100dp"
-            android:src="@drawable/spicynoodle"
+            android:src="@drawable/noodle"
             android:layout_centerHorizontal="true"
             android:layout_centerVertical="true"
             android:id="@+id/profile"/>

@@ -19,7 +19,7 @@ public class StartActivity extends AppCompatActivity {
                 finish();
             }
         };
-        new Handler().postDelayed(runnable,1000);
+        new Handler().postDelayed(runnable,3000);
 
     }
 
